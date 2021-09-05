@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="style.css">
+  <title>3D Rotating Navigation | CodyHouse</title>
+</head>
+<body>
+	<header class="cd-header container flex justify-between items-center">
+    <a href="#0" class="cd-logo">
+      <svg width="124" height="23" viewBox="0 0 124 23"><title>Go to homepage</title><rect width="70" height="23" fill="#c96aa4"/><rect x="70" width="27" height="23" fill="#9a57bd"/><rect x="97" width="27" height="23" fill="#fff"/></svg>
+    </a>
+
+    <a href="#cd-3d-nav" class="cd-header__nav-trigger" aria-label="Toggle menu">
+      <span aria-hidden="true"></span>
+    </a>
+	</header>
+
+	<main class="cd-main">
+    <!-- all your content here -->
+    <div class="container max-width-xs">
+      <div class="text-component text-center margin-top-xxl">
+        <h1 class="text-xl">GENTECHO</h1>
+        </div>
+    </div>
+	</main>
+
+	<nav class="cd-3d-nav js-cd-3d-nav" id="cd-3d-nav">
+		<ul class="cd-3d-nav__list">
+			<li class="cd-3d-nav__item cd-3d-nav__item--selected">
+				<a href="#0">
+          <span>Dashboard</span>
+        </a>
+			</li>
+
+			<li class="cd-3d-nav__item">
+				<a href="#0">
+          <span>Projects</span>
+        </a>
+			</li>
+
+			<li class="cd-3d-nav__item">
+				<a href="#0">
+          <span>Images</span>
+        </a>
+			</li>
+
+			<li class="cd-3d-nav__item">
+				<a href="#0">
+          <span>Settings</span>
+        </a>
+			</li>
+
+			<li class="cd-3d-nav__item">
+				<a href="#0">
+          <span>New</span>
+        </a>
+			</li>
+		</ul>
+
+		<span class="cd-3d-nav__marker cd-3d-nav__marker--col-1" aria-hidden="true"></span>
+	</nav>
+<script src="util.js"></script> <!-- util functions included in the CodyHouse framework -->
+<script src="main.js"></script>
+</body>
+</html>
